@@ -1,0 +1,151 @@
+<html>
+    <title>
+        Layout
+    </title>
+    <head></head>
+    <style>
+        header{
+            display: flex;
+            height: 200px;
+            flex-direction: row;
+            border: 1px solid black;
+        }
+        .right{
+            height: inherit;
+            width: 70%;
+        
+            
+            
+        }
+        .left{
+            height: inherit;
+            width: 30%;
+            background-image: url(https://lh3.googleusercontent.com/proxy/6TRSErdTfpeu9LjY5GOT-ioCZNA-qNp58KhfevlXOsBH2u9eq5rpKUD85ZBSfj1T_lLfPTZdE3nBMx00X_m86aVOdkx_863OnPtb9aUZ-6yDMLU) ;
+            background-size: cover;
+            background-color: rgba(127, 255, 212, 0.788);
+        }
+    
+        h1{
+            text-align: center;
+            text-shadow: 0px 1px 5px ;
+            font-size: 100px;
+            margin-top: 30px;
+        }
+        nav{
+            height: 50px;
+            display: grid;
+            background-color: red;
+            grid-template-columns: 20% 20% 20% 20% 20%;
+            
+
+        }
+        .n{
+            height: inherit;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            
+            
+        }
+        .n:hover{
+            background-color:black;
+            transition: 3s;
+        }
+        a{
+            color:black;
+            text-decoration: none;
+        
+        }
+        section{
+            height:400px;
+            display:flex;
+            flex-direction: row;
+        }
+        .s1{
+            height: inherit;
+            width: 20%;
+            background-color: gray ;
+            background-image: url(https://www.ecranlarge.com/content/uploads/2022/05/the-rising-of-the-shield-hero-photo-1430133.jpg);
+        }
+        .s2{
+            height: inherit;
+            width: 60%;
+            background-color: burlywood;
+            
+            background-image: url(https://images8.alphacoders.com/132/1320551.jpeg);
+        }
+        .s3{
+            height: inherit;
+            width: 20%;
+            background-color: olive ;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_xj4XePyBl_Tx_M67SrQVgW11x1huIIrEpQ&s);
+            
+        }
+        marquee{
+            height:inherit;
+        }
+        h2{
+            color: brown;
+        }
+        h3{
+            color:aqua;
+        }
+        footer{
+            height: inherit;
+            width: 100%;
+            color: brown;
+            background-color: black;
+            
+
+        }
+
+    </style>
+    <body>
+        <header>
+            <div class="left"></div>
+            <div class="right"><center><h1><b>Anime Family</b></h1></center></div>
+            <div></div>
+
+        </header>
+        <nav>
+            <div class="n"><a href="">Home</a>
+            </div>
+               
+
+            <div class="n"><a href="">AboutUs</a>
+            </div>
+               
+
+            <div class="n"> <a href="">Character</a></div>
+               
+
+            <div class="n"><a href="">Movies</a></div>
+               
+            <div class="n"><a href="">Contact</a></div>
+               
+
+        </nav>
+        <section>
+            <div class="s1">
+               <marquee behavior="" direction="up" onmouseout="this.start()" onmousestop="this.stop()">
+              <center> <h3>The rising of the shield hero Season1 </h3>
+               <h3>The rising of the shield hero Season2</h3>
+               <h3>The rising of the shield hero Season3</h3>
+               <h3>The rising of the shield heroSeason4</h3></marquee></center>
+               
+               </div>
+            
+            <div class="s2">
+                
+
+            </div>
+            <div class="s3">
+                
+            </div>
+        </section>
+        <footer>
+            <center><h2>@Thanking You!!</h2></center>
+        </footer>
+    </body>
+</html>
